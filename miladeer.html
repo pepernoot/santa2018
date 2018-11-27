@@ -18,7 +18,7 @@ var myObstacles = [];
 var myScore;
 
 function startGame() {
-    myGamePiece = new component(170, 120, "elf.jpg", 10, 120, "image");
+    myGamePiece = new component(170, 120, "elf.png", 10, 120, "image");
     myGamePiece.gravity = 0.05;
     myScore = new component("30px", "Consolas", "black", 280, 40, "text");
     myGameArea.start();
@@ -149,10 +149,10 @@ function accelerate(n) {
 <br>
 <div class="container">
     <hr>
-    <button type="button" class="btn btn-warning" ontouchend="accelerate(-0.2)" ontouchstart="accelerate(0.05)" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">FLY</button>
+    <button type="button" class="btn btn-warning" ontouchend="accelerate(-0.2)" ontouchstart="accelerate(0.05)" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">Wingardium Leviosa</button>
     <hr>
-    <p>Use the FLY button to stay in the air.</p>
-    <p>Can you navigate Santa's sled through the wood?</p>
+    <p>Use the spell to levitate.</p>
+    <p>Can you navigate Santa's sleigh through the forrest?</p>
 </div>
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
